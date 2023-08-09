@@ -1,0 +1,119 @@
+input[type=text],input[type=password]{
+    width: 230px;
+    padding: 5px;
+    margin-bottom: 7px;
+    border-radius: 3px;
+    border:1px solid rgba(204, 202, 199, 0.805);
+}
+fieldset{
+    border-radius: 3px;
+}
+ul{
+    text-align: center;
+    list-style-type: none;
+    
+}
+li{
+    padding: 5px;
+    display: inline;
+}
+li a{
+    text-decoration: none;
+    color: rgb(56, 56, 56 , .6);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: x-small;
+}
+select{
+    border-color: white;
+    color: rgb(56, 56, 56 , .6);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-small;
+    size: 100px;
+    margin-left: 10px;
+}
+.f1{
+    border:1px solid rgba(204, 202, 199, 0.803);
+}
+.last{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(56, 56, 56 , .6);
+    font-size: x-small;
+    text-align: center;
+}
+
+::placeholder {
+    color: rgb(56, 56, 56 , .6);
+    font-size: x-small;
+    padding: 2%;
+  }
+.main{
+
+    display: flex;
+    height: 85vh;
+    margin: 3% 20% auto 20%; 
+    justify-content: center;
+
+}
+
+#photo{
+    margin-right: 1%;
+    margin-bottom: 1%;
+}
+
+#login{
+    height: 60vh;
+    margin-left: 1%;
+    text-align: center;
+}
+#saveinfo{
+    margin-top: 10px;
+}
+#f2{
+    text-decoration: none;
+    border-top:1px solid rgba(204, 202, 199, 0.802);
+    border-left: 0px;
+    border-bottom: 0px;
+    border-right: 0px;
+    padding-top: 0px;
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+#f3{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top:10px;
+    font-size: small;
+    font-family: Arial;
+    border:1px solid rgba(204, 202, 199, 0.802);
+}
+#f4{
+    border: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+}
+#submit{
+    border-radius: 5px;
+    border: 0px solid;
+    margin-bottom: 15px;
+    background-color: rgb(139, 88, 221);
+    color: white;
+    height: 25px;
+    width: 230px;
+}
+#forgotPss{
+    font-size: x-small;
+    text-decoration: none;
+}
+#loginWithFb{
+    font-size:small;
+    text-decoration: none;
+    font-weight: 500;
+}
+#fontChange{
+    margin-bottom: 0px;
+    padding: 5% auto 3% auto;
+    font-family: 'Borel', cursive;
+    font-style: oblique;
+}
